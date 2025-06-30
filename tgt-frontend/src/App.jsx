@@ -215,6 +215,7 @@ const App = () => {
         >
           {loading ? 'Generating...' : 'Generate QR Code'}
         </button>
+        
 
         {qrCode && (
           <div className="qr-section">
